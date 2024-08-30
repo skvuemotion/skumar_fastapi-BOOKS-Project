@@ -1,0 +1,82 @@
+GIT and GITHUB STEPS TO UPLOAD FILE IN LOCAL SYSTEM AND IN GITHUB
+
+-------------------------------------------------------------------
+
+               WORKFLOW OF THE PROJECT FILE
+
+                    GITHUB REPO
+                         |
+                       CLONE
+                         |
+                       CHANGES
+                         |
+                        ADD
+                         |
+                       COMMIT
+                         |
+                       PUSH            
+------------------------------------------------------------------------
+
+Steps for uploading in local system
+
+To see all hiden file
+
+-- ls-a
+
+To initialized the empty Git repository
+
+-- git init
+
+To check the status of the file 
+
+-- git status
+
+To add git repo to the local system steps
+
+-- git add file name //// git add . // files
+
+-- git status 
+
+To commit the repo in local system
+
+-- git commit -m "the update you want to write"
+
+-- git status
+
+
+---------------------------------------------------------------------
+
+To push on github these steps after the local system upload
+
+TO connect the github repo to the local system 
+
+-- git remote add origin <-link->
+
+To check the remote dir 
+
+-- git remote-v
+
+To check the branch name 
+
+-- git branch
+
+To change the name of the branch
+
+-- git branch-M main
+
+To push the repo the github  
+
+-- git push origin main
+
+if there is bug to upload the file use this to Pull
+
+--git pull --rebase origin main
+--git push origin main
+
+--git push origin -u main
+
+
+
+
+
+
